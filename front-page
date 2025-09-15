@@ -1,0 +1,14 @@
+<?php get_header(); ?>
+<main>
+  <section class="about-hero">
+    <div class="container about-hero__inner">
+      <h1>Boutique residential, commercial, and community development</h1>
+      <p class="lead">Create meaningful spaces with a developer known for quality and delivery in prime locations.</p>
+      <div class="btn-row">
+        <a class="btn" href="<?php echo esc_url(home_url('/projects/')); ?>">Explore our projects</a>
+        <a class="btn btn-ghost" href="<?php echo esc_url(home_url('/contact/')); ?>">Contact us</a>
+      </div>
+    </div>
+  </section>
+</main>
+<?php get_footer(); ?>
