@@ -1,0 +1,7 @@
+<?php
+/* Template Name: About Page */
+get_header(); ?>
+<main>
+  <!-- paste the About sections (Hero, Our story, Industry recognition, How we work, etc.) -->
+</main>
+<?php get_footer(); ?>
